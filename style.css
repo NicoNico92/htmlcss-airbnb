@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,7 +11,7 @@ body {
 .container {
     position: relative;
     height: 100vh;
-    width: 25vw;
+    width: 26vw;
     background-color: black;
     display: block;
     margin: auto;
@@ -26,13 +27,9 @@ body {
     background-size: cover;
     position: relative;
     display: block;
+    margin-bottom: 5px;
 }
 
-br {
-            display: block; /* makes it have a width */
-            content: ""; /* clears default height */
-            margin-top: 5px; /* change this to whatever height you want it */
-}
 
 .parisblock {
     background-color: red;
@@ -56,7 +53,7 @@ br {
     transform: translate(-50%,-50%);
 }
 
-#overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
