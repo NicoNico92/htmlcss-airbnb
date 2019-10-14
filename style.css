@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #939393;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 25vw;
+    background-color: black;
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+.allblocks {
+    font-family: 'Mansalva', cursive;
+    font-size: 30px;
+    height: 32.4vh;
+    width: 25vw;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+br {
+            display: block; /* makes it have a width */
+            content: ""; /* clears default height */
+            margin-top: 5px; /* change this to whatever height you want it */
+}
+
+.parisblock {
+    background-color: red;
+    background-image: url(https://cc-media-foxit.fichub.com/image/fox-it-life/2671c113-6f11-4b6e-aa1d-a000790975fe/parigi-22-maxw-824.jpg);
+}
+
+.londonblock {
+    background-color: blue;
+    background-image: url(https://www.myenglishschool.it/magazine/wp-content/uploads/2018/10/trovare-lavoro-a-londra-compressed.jpg);
+}
+
+.berlinblock {
+    background-color: green;
+    background-image: url(https://siviaggia.files.wordpress.com/2018/08/berlin.jpg);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.35);
+}
